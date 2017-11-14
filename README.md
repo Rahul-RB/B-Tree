@@ -27,8 +27,8 @@ $ ./run -d 1078
 ````
 
 # Folder Structure: 
-- my_btrees_arrays
-- my_btrees_files
+- btrees_arrays
+- btrees_files
 
 ### Both the folders have the following files: 
 - run.c
@@ -40,7 +40,7 @@ $ ./run -d 1078
 - headers.h
 	-has the structure for BTree, BTreeNode and for a Record.
 
-- plotAndTest.py in my_btrees_files 
+- plotAndTest.py in btrees_files 
 	- ignore this file.
 
 - ignore any other unspecified files.
