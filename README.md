@@ -6,18 +6,21 @@
 ### To Run: 
 #### In either my_btrees_array or my_btrees_files, do the following: 
 
-```$ make t=[VALUE]
+```
+$ make t=[VALUE]
 [VALUE] is the value of 't' which is the degree of an internal node in BTree.
 ```
 #### Then run: 
-````$ ./run [OPTIONS] [VALUES]
+````
+$ ./run [OPTIONS] [VALUES]
 [OPTIONS] is : 
    "-b" -- to build the tree.
    "-s [VALUE]" -- to search for key: [VALUE] in the tree.
    "-d [VALUE]" -- to delete a key: [VALUE] from thr tree.
 ````
 #### Example: 
-````$ make t=4
+````
+$ make t=4
 $ ./run -b
 $ ./run -s 1078
 $ ./run -d 1078
