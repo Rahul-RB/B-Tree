@@ -1,8 +1,7 @@
 #BTree implementation in Array and Files, as per CLRS Textbook algorithms.
 
 ### Requirements: 
-```GCC 5.4.x +
-```
+- GCC 5.4.x +
 
 ### To Run: 
 #### In either my_btrees_array or my_btrees_files, do the following: 
